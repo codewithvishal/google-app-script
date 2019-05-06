@@ -1,4 +1,3 @@
-
 function pushbullet(title, body) {
   var PUSH_BULLET_ACCESS_TOKEN = "YOUR-PUSHBULLET-API-TOKEN";
   var digest = "Basic " + Utilities.base64Encode(PUSH_BULLET_ACCESS_TOKEN + ":"),
@@ -8,10 +7,10 @@ function pushbullet(title, body) {
         "type": "note",
         "title": title,
         "body": body,
-        "device_iden": "YOUR DEVICE ID" // You will find in the URL
+        "device_iden": "YOUR DEVICE ID" // You will find it in the URL at pushbullet account
       },
       "headers": {
-        "Authorization": digest
+        "Authorization": digest // Do not edit here
       }
     },
   push_bullet_url = "https://api.pushbullet.com/v2/pushes";
