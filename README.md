@@ -1,2 +1,2 @@
 # pushbullet-javascript
-Send pushbullet using JavaScript API to Android and computers
+Send pushbullet using JavaScript API and Google AppScript with Triggers to Android and computers
