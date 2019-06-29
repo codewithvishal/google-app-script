@@ -1,6 +1,6 @@
 // Google AppScript Trigger
 function Schedule (FUNCTION_NAME) {
-     ScriptApp.newTrigger(FUNCTION_NAME)  // HERE IN THIS CASH PUSHBULLET
+     ScriptApp.newTrigger(FUNCTION_NAME)  // HERE IN THIS PUSHBULLET
                .timeBased()
                 .everyMinutes(1)
                  .create();
