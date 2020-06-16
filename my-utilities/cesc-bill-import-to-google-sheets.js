@@ -32,8 +32,6 @@ function test() {
   }
   }
   
-  
-  
   if (debug == true) {
     //Logger.log(bills);
 //    Logger.log(bills[0][0].getSubject());
