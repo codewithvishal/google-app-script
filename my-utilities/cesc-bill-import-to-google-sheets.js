@@ -1,7 +1,7 @@
 var debug = false;
 var ss = SpreadsheetApp.getActiveSpreadsheet();
 
-function test() {
+function cesc_bill() {
   var label = "cesc";
   var name = /(Name:.*)/g;
   var amount = /(Net Amount.*(\d.00))/g;
