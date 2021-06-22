@@ -8,13 +8,13 @@ function Html() {
 }
 
 
-function createDraft(USER_MAIL_ID) {
+function createDraft(USER_MAIL_ID, email_subject) {
 var STATUS = "";
 try {
     var html = Html();
     GmailApp.createDraft(
       USER_MAIL_ID,
-      "This is a test email",
+      email_subject,
       html,
       {
         htmlBody: html
